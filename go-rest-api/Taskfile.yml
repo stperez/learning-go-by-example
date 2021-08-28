@@ -15,7 +15,7 @@ tasks:
   swagger.gen:
     desc: Generate Go code
     cmds:
-      - GOFLAGS=-mod=mod go generate github.com/stperez/learning-go-by-example/go-rest-api/internal github.com/stperez/learning-go-by-example/go-rest-api/pkg/swagger
+      - GOFLAGS=-mod=mod go generate github.com/stperez/learning-go-by-examples/go-rest-api/internal github.com/stperez/learning-go-by-examples/go-rest-api/pkg/swagger
 
   swagger.validate:
     desc: Validate swagger
